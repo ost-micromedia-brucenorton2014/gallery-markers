@@ -1,0 +1,14 @@
+/*stylesheet*/
+
+body {
+    padding-top: 70px; /*for fixed nav*/
+}
+
+/*need these to give height to the map-canvas*/
+html, body, #markers-canvas{
+	height: 100%;
+}
+
+.container, #markers-row{
+	height: inherit;
+}
